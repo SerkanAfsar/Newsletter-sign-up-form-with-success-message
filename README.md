@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/JohnMwendwa/newsletter-sign-up](https://github.com/JohnMwendwa/newsletter-sign-up)
-- Live Site URL: [https://johnmwendwa.github.io/newsletter-sign-up](https://johnmwendwa.github.io/newsletter-sign-up/)
+<!-- - Solution URL: [https://github.com/JohnMwendwa/newsletter-sign-up](https://github.com/JohnMwendwa/newsletter-sign-up)
+- Live Site URL: [https://johnmwendwa.github.io/newsletter-sign-up](https://johnmwendwa.github.io/newsletter-sign-up/) -->
 
 ## My process
 
