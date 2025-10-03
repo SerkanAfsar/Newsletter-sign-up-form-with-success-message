@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <main>
+      <div class="wrapper">
+        <article class="info">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+          <form novalidate>
+            <div class="form__item">
+              <label for="email"> Email address </label>
+              <span id="email-error" class="error" role="alert"
+                >Valid Email Required</span
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@company.com"
+                required
+                aria-describedby="email-error"
+              />
+            </div>
+            <button type="submit" class="btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </article>
+        <figure>
+          <picture>
+            <source
+              srcset="assets/images/illustration-sign-up-mobile.svg"
+              media="(max-width: 576px)"
+            />
+
+            <!-- Varsayılan (desktop) -->
+            <img
+              src="assets/images/illustration-sign-up-desktop.svg"
+              alt="Responsive Image"
+            />
+          </picture>
+          <figcaption>Illustration showing newsletter signup</figcaption>
+        </figure>
+      </div>
+      <section class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__wrapper">
+          <img src="assets/images/icon-success.svg" />
+          <h2>Thanks for subscribing!</h2>
+          <p>
+            A confirmation email has been sent to <b></b>. Please open it and
+            click the button inside to confirm your subscription.
+          </p>
+          <button class="btn">Dismiss message</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Serkan Afşar</a>.
+      </div>
+    </footer>
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+
+    <!-- Success message end -->
+  </body>
+  <script type="text/javascript" src="assets/javascript/script.js"></script>
+</html>
