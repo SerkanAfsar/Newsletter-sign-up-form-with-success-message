@@ -47,4 +47,4 @@ Users should be able to:
 ## Author
 
 - Website - [Serkan Afşar](https://github.com/SerkanAfsar)
-- Frontend Mentor - [@JohnMwendwa](https://www.frontendmentor.io/profile/SerkanAfsar)
+- Frontend Mentor - [@SerkanAfsar](https://www.frontendmentor.io/profile/SerkanAfsar)
